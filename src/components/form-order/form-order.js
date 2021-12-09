@@ -9,7 +9,7 @@ import { getAuth } from "@firebase/auth";
 import { useNavigate } from "react-router-dom";
 
 import "./form-order.css";
-import Loader from "../../loader/loader";
+import Loader from "../loader/loader";
 
 const FormOrder = () => {
     const auth = getAuth();

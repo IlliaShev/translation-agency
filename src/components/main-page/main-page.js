@@ -9,8 +9,8 @@ import { getAuth} from "firebase/auth";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { getFirestore, collection } from "firebase/firestore";
 import { useCollectionData } from "react-firebase-hooks/firestore";
-import Loader from "../../loader/loader";
 import Languages from "../languages/languages";
+import Loader from "../loader/loader";
 
 const MainPage = () => {
 
