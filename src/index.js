@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './components/app/App';
+import { initializeApp } from 'firebase/app';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+initializeApp({
+    apiKey: "AIzaSyDtGH1dISVOreegpPUpxf1TokcI50Vgtqs",
+    authDomain: "translation-agency-d572c.firebaseapp.com",
+    projectId: "translation-agency-d572c",
+    storageBucket: "translation-agency-d572c.appspot.com",
+    messagingSenderId: "523606972272",
+    appId: "1:523606972272:web:afcaf05f09b799edeea1b5",
+    measurementId: "${config.measurementId}"
+});
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(<App />, document.getElementById('root'));

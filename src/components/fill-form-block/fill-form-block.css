@@ -1,0 +1,42 @@
+.fill-form-content {
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+    width: 80%;
+    margin: 5rem auto 3rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.fill-form-content h2 {
+    text-align: center;
+    color: #673D8D;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn-fill-form {
+    align-self: center;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #007B6F;
+    border: 0px;
+    border-radius: 20px;
+    padding: .5rem 5rem;
+    transition: all .2s linear;
+    margin: 1rem 0;
+}
+
+.btn-fill-form:hover {
+    cursor: pointer;
+    background-color: #08635a;
+}
+
+@media (max-width:768px) {
+    .fill-form-content h2 {
+        font-size: 2rem;
+    }
+
+    .btn-fill-form {
+        font-size: 1.5rem;
+    }
+}

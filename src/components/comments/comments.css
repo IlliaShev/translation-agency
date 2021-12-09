@@ -1,0 +1,47 @@
+.btn-log {
+    align-self: center;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #007B6F;
+    padding: .5rem;
+    width: 40%;
+    margin: 2rem auto 3rem auto;
+    border: 0;
+    border-radius: 20px;
+}
+
+.btn-log:hover {
+    background-color: #08635a;
+}
+
+.comments-container {
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+    width: 80%;
+    margin: 5rem auto 3rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.comments-container h2 {
+    text-align: center;
+    color: #673D8D;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn-cancel:hover {
+    background-color: #d13e3e;
+    color: white !important;
+}
+
+@media (max-width:768px) {
+    .comments-container h2 {
+        font-size: 2rem;
+    }
+
+    .btn-log {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+}

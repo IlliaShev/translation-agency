@@ -1,0 +1,9 @@
+.image {
+    margin: auto;
+    height: 100%;
+}
+
+.not-found-page-container {
+    display: flex;
+    justify-content: center;
+}

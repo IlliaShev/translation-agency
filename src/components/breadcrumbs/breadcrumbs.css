@@ -1,0 +1,39 @@
+.breadcrumb-body {
+    padding-right: 5rem;
+    background-color: #f5f5f5;
+    align-self: baseline;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 0;
+}
+
+.breadcrumb {
+    margin: 0 0 0 2rem;
+}
+
+
+.logo {
+  background: url(https://pereklad.ua/templates/pereklad/images/logo-sign.svg) no-repeat center;
+  background-size: 1rem auto;
+  width: 1rem;
+  height: 1rem;
+}
+
+.active-breadcrumb {
+    font-size: 1rem;
+    color: #43126f;
+    font-family: 'RobotoCondensed Bold';
+    transition: all linear .2s;
+}
+
+.active-breadcrumb:hover {
+    color: #00a296;
+}
+
+.active-breadcrumb [role=button] {
+    cursor: pointer;
+}
+
+[role=button] {
+    cursor: auto;
+}
